@@ -16,6 +16,10 @@ public class Person {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
+    public Person() {
+
+    }
+
     public String getFirstName() {
         return firstName;
     }
